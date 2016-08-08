@@ -13,6 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- CSS Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
   <!-- JS Bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -41,7 +42,7 @@
           <li><a class="menu-basic" href="#">Premium</a></li>
           <li><a class="menu-basic" href="#">Aide</a></li>
           <li><a class="menu-basic" href="#">Télécharger</a></li>
-          <li><a class="menu-basic menu-disabled" href="#">|</a></li>
+          <li><a class="menu-basic menu-disabled hidden-sm hidden-xs" href="#">|</a></li>
           <li><a href="#">S'inscrire</a></li>
           <li><a href="#">Se connecter</a></li>
         </ul>
@@ -51,11 +52,8 @@
   <!-- FIN NAVBAR -->
 
 
-  <!--  -->
-
   <!-- CONSOLE -->
   <header class="fluid-container">
-
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -67,7 +65,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="content-slideshow col-sm-8 col-sm-offset-2">
+          <div class="content-slideshow col-xs-8 col-xs-offset-2">
             <p>
               De la musique pour tous.
             </p>
@@ -85,7 +83,7 @@
 
         </div>
         <div class="item">
-          <div class="content-slideshow col-sm-8 col-sm-offset-2">
+          <div class="content-slideshow col-xs-8 col-xs-offset-2">
             <p>
               Utilisez Spotify sur votre PlayStation®.
             </p>
@@ -94,7 +92,7 @@
         </div>
 
         <div class="item">
-          <div class="content-slideshow col-sm-8 col-sm-offset-2">
+          <div class="content-slideshow col-xs-8 col-xs-offset-2">
             <p>
               Offrez Spotify Premium à toute la famille.
               Seulement 14,99 €.
@@ -108,11 +106,11 @@
 
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class=" glyphicon glyphicon-menu-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -122,30 +120,49 @@
 
     </div>
     <div class="row">
-
     </div>
   </header>
+  <!-- FIN HEADER -->
 
+  <!-- ARROW 01 -->
+  <div class="col-xs-12 arrow-link-container">
+    <div class="col-xs-1 arrow-link">
+      <a href="#">
+        <span>
+          <i class=" glyphicon glyphicon-menu-down"></i>
+        </span>
+        <span>
+          <i class=" glyphicon glyphicon-menu-down"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <!-- FIN ARROW 01 -->
 
   <!-- AVANTAGES  -->
   <section class="container-fluid avantages ">
 
 
     <!-- IMAGES MORCEAUX -->
-    <div class="col-sm-5 col-sm-offset-1 songs">
-
-      <figure class="col-sm-6">
-      </figure>
-      <figure class="col-sm-6">
-      </figure>
-      <figure class="col-sm-6">
-      </figure>
-      <figure class="col-sm-6">
-      </figure>
+    <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+      <div class="col-xs-12 songs">
+        <figure class="col-md-6 col-xs-6">
+          <span><i class="glyphicon glyphicon-play"></i></span>
+        </figure>
+        <figure class="col-md-6 col-xs-6">
+          <span><i class="glyphicon glyphicon-play"></i></span>
+        </figure>
+        <figure class="col-md-6 col-xs-6">
+          <span><i class="glyphicon glyphicon-play"></i></span>
+        </figure>
+        <figure class="col-md-6 col-xs-6">
+          <span><i class="glyphicon glyphicon-play"></i></span>
+        </figure>
+      </div>
     </div>
 
     <!-- TEXT -->
-    <div class="col-sm-4 col-sm-offset-1 avantages-text">
+    <div class="col-md-4 col-xs-12 col-sm-offset-1 avantages-text">
       <h2>Les avantages de Spotify</h2>
       <h3>Musique</h3>
       <p>
@@ -164,73 +181,108 @@
   </section>
   <!-- FIN AVANTAGES  -->
 
+  <!-- ARROW 02 -->
+  <div class="col-xs-1 col-xs-offset-1 arrow-link">
+    <a href="#">
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+    </a>
+  </div>
+  <!-- FIN ARROW 02 -->
+
 
   <!-- SIMPLE -->
   <section class="container-fluid simple">
     <div class="row">
 
-      <div class="col-sm-3 col-sm-offset-1 ">
-        <h2>Tellement simple.</h2>
-        <h3>Rechercher</h3>
-        <p>
-          Envie d'écouter un titre en particulier ? Cherchez, cliquez, écoutez. Tout simplement.
-        </p>
+      <div class="col-sm-3 col-sm-offset-1 text-left">
+        <div class="col-xs-12">
+          <h2>Tellement simple.</h2>
+          <h3>Rechercher</h3>
+          <p>
+            Envie d'écouter un titre en particulier ? Cherchez, cliquez, écoutez. Tout simplement.
+          </p>
 
-        <h3>Parcourir</h3>
-        <p>
-          Découvrez sans plus attendre les classements les plus récents, les dernières nouveautés et les meilleures playlist.
-        </p>
+          <h3>Parcourir</h3>
+          <p>
+            Découvrez sans plus attendre les classements les plus récents, les dernières nouveautés et les meilleures playlist.
+          </p>
 
-        <h3>Découvrir</h3>
-        <p>
-          Chaque lundi, découvrez une playlist personnalisée selon vos goûts musicaux. Ou détendez-vous en écoutant la radio.
-        </p>
+          <h3>Découvrir</h3>
+          <p>
+            Chaque lundi, découvrez une playlist personnalisée selon vos goûts musicaux. Ou détendez-vous en écoutant la radio.
+          </p>
+        </div>
       </div>
 
-      <div class="iphones-group">
-        <div class="row">
-          <figure class="col-sm-4 iphone">
-            <div class="iphone-1a img-iphone">
-            </div>
-          </figure>
-          <figure class="col-sm-4 iphone">
-            <div class="iphone-2 img-iphone">
-            </div>
-            <div class="row">
-              <figure class="col-sm-4 iphone">
-                <div class="iphone-3 img-iphone">
-                </div>
-              </figure>
-            </div>
-          </figure>
-          <figure class="col-sm-4 iphone">
-            <div class="iphone-4 img-iphone">
-            </div>
-            <div class="row">
-              <figure class="col-sm-4 iphone">
-                <div class="iphone-1a img-iphone">
-                </div>
-              </figure>
-            </div>
-          </figure>
+      <div class="iphones-group hidden-sm hidden-xs">
+
+        <figure class="col-xs-4 iphone">
+          <div class="iphone-1a img-iphone">
+          </div>
+        </figure>
+
+        <div class="col-xs-4 iphone_many">
+          <div class="row">
+            <figure class="col-xs-12 iphone">
+              <div class="iphone-2 img-iphone">
+              </div>
+            </figure>
+          </div>
+          <div class="row">
+            <figure class="col-xs-12 iphone iphone-low">
+              <div class="iphone-3 img-iphone">
+              </div>
+            </figure>
+          </div>
         </div>
 
-      </div>
 
+        <div class="col-xs-4 iphone_many">
+          <div class="row">
+            <figure class="col-xs-12 iphone">
+              <div class="iphone-4 img-iphone">
+              </div>
+            </figure>
+          </div>
+          <div class="row">
+            <figure class="col-xs-12 iphone iphone-low">
+              <div class="iphone-2 img-iphone">
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- FIN SIMPLE -->
 
+  <!-- ARROW 03 -->
+  <div class="col-xs-1 col-xs-offset-1 arrow-link">
+    <a href="#">
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+    </a>
+  </div>
+  <!-- FIN ARROW 03 -->
 
   <!-- ECOUTEZ -->
   <section class="container-fluid ecoutez">
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 text-center">
+      <div class="col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 text-center">
 
-        <figure class="col-sm-12">   <!-- IMAGES -->
+        <figure class="col-xs-12">   <!-- IMAGES -->
         </figure>
         <h2>Écoutez de la musique sur tous vos appareils. </h2>
-        <ul class="list-inline">
+        <ul class="list-inline text-center col-xs-12 hidden-xs">
           <li>Mobile</li>
           <li class="tiret">-</li>
           <li>Ordinateur</li>
@@ -241,7 +293,7 @@
           <li class="tiret">-</li>
           <li>Haut-parleur</li>
           <li class="tiret">-</li>
-          <li><a href="#">Playstation</a></li>
+          <li><a href="#">PlayStation</a></li>
           <li class="tiret">-</li>
           <li>TV</li>
           <li class="tiret">-</li>
@@ -249,21 +301,52 @@
           <li class="tiret">-</li>
           <li><a href="#">Lecteur web</a></li>
         </ul>
+
+        <!-- RESPONSIVE LIST -->
+        <ul class="text-center col-xs-6 hidden-sm hidden-md- hidden-lg">
+          <li>Mobile</li>
+          <li>Ordinateur</li>
+          <li>tablette</li>
+          <li>Voiture</li>
+          <li>Haut-parleur</li>
+        </ul>
+
+        <ul class="text-center col-xs-6 hidden-sm hidden-md- hidden-lg">
+          <li><a href="#">PlayStation®</a></li>
+          <li>TV</li>
+          <li>Android wear</li>
+          <li><a href="#">Lecteur web</a></li>
+        </ul>
+        <!-- FIN RESPONSIVE LIST -->
+
       </div>
     </div>
 
   </section>
   <!-- FIN ECOUTEZ -->
 
+  <!-- ARROW 04 -->
+  <div class="col-xs-1 col-xs-offset-1 arrow-link">
+    <a href="#">
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+      <span>
+        <i class=" glyphicon glyphicon-menu-down"></i>
+      </span>
+    </a>
+  </div>
+  <!-- FIN ARROW 04 -->
+
+
   <!-- EN AVANT -->
   <section class="container-fluid enAvant">
-    <div class="col-sm-9 col-sm-offset-1">
+    <div class="col-sm-9 col-xs-10 col-xs-offset-1">
 
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-xs-12">
           <h2>
-            En avant la <br>
-            musique.
+            En avant la musique.
           </h2>
           <p>
             De la musique gratuite. <br>
@@ -271,31 +354,214 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-10 account">
+
+
+      <div class="row"> <!-- ACCOUNT FREE -->
+        <div class="col-sm-10 col-xs-12 account">
           <div class="row account-head">
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-xs-12">
               <h3>Spotify</h3>
             </div>
-            <div class="col-sm-5 pull-sm-right">
+            <div class="col-sm-5 text-right-sm col-sm-offset-3 col-xs-12 text-left-xs col-xs-offset-0">
               <p>
                 0,00 €<span class="byMonth">/mois</span>
               </p>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="row">
+            <div class="col-xs-12 account-content">
+              <div class="col-md-10 col-xs-12">
+                <p>
+                  Écoutez vos artistes et albums préférés. Vous entendrez occasionnellement des spots publicitaires.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 account-btn">
+              <a class="btn btn-default">
+                Telechargez spotify free
+              </a>
+            </div>
+          </div>
 
-    </div>
-    <div class="col-sm-2 pull-sm-right nexus-container">
+        </div>
+      </div> <!-- FIN ACCOUNT FREE -->
+
+      <div class="row"> <!-- ACCOUNT PREMIUM -->
+        <div class="col-sm-10 col-xs-12 account account-premium">
+          <div class="row account-head">
+            <div class="col-sm-7 col-xs-12">
+              <h3>Spotify Premium</h3>
+              <p class="family">
+                <a href="#">Offre Family</a> disponible
+              </p>
+            </div>
+            <div class="col-sm-4 col-xs-12 text-right-sm text-left-xs col-sm-offset-1 col-xs-offset-0">
+              <p>
+                9,99 €<span class="byMonth">/mois</span>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 account-content">
+              <p>
+                Écoute à la demande. <br>
+                Musique hors connexion <br>
+                Aucune pub <br>
+                Grande qualité audio. <br>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 account-btn">
+              <a class="btn btn-default hidden-xs">
+                Abonnez-vous à Spotify Premium
+              </a>
+
+              <a class="btn btn-default hidden-sm hidden-md hidden-lg">
+                Abonnez-vous à Spotify <br>Premium
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- FIN ACCOUNT PREMIUM -->
+    </div> <!-- FIN BLOC TEXT -->
+
+    <!-- NEXUS -->
+    <div class="col-sm-2 pull-sm-right hidden-sm hidden-xs nexus-container">
       <figure class="nexus">
         <div class="img-nexus">
         </div>
       </figure>
     </div>
+    <!-- FIN NEXUS -->
+
+    <div class="row">
+      <div class="col-xs-12 text-center mention">
+        <p>
+          Offre soumise à nos <a href="#">Conditions d'utilisation</a>.
+        </p>
+      </div>
+    </div>
   </section>
   <!-- FIN EN AVANT -->
 
+  <!-- FOOTER -->
+  <footer class="container-fluid">
+    <div class="row">
+
+
+      <!-- LOGO -->
+      <div class="col-md-1 col-md-offset-1 col-xs-12 col-xs-0">
+        <div class="col-xs-12">
+          <a href="#">
+            <figure class="spotify-vector-logo"></figure>
+          </a>
+        </div>
+      </div>
+
+      <!-- INDEX -->
+      <div class="col-md-6 col-xs-12">
+
+        <div class="col-sm-4 col-xs-6 col-md-offset-1 col-xs-0 col-xs-offset-0">      <!-- Liste index -->
+          <ul>
+            <li>company</li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Offres d'emploi</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Actualités</a></li>
+          </ul>
+        </div>      <!-- FIN Liste index -->
+
+        <div class="col-sm-4 col-xs-6">      <!-- Liste index -->
+          <ul>
+            <li>Communautés</li>
+            <li><a href="#">Espace artistes</a></li>
+            <li><a href="#">Développeurs</a></li>
+            <li><a href="#">Marques</a></li>
+          </ul>
+        </div>      <!-- FIN Liste index -->
+
+        <div class="col-sm-3 col-xs-6 col-sm-offset-0 col-xs-offset-6">      <!-- Liste index -->
+          <ul>
+            <li>Liens utiles</li>
+            <li><a href="#">Aide</a></li>
+            <li><a href="#">Cadeaux</a></li>
+            <li><a href="#">Lecteur web</a></li>
+          </ul>
+        </div>      <!-- FIN Liste index -->
+
+      </div>
+
+      <!-- ICONS -->
+
+      <div class="col-md-2 col-sm-3 col-xs-7 col-md-offset-1 col-xs-offset-0 icons-group">
+        <div class="col-xs-4">
+          <a href="#" class="col-xs-12 icon">
+            <span>
+              <i class="fa fa-instagram">
+              </i>
+            </span>
+          </a>
+        </div>
+
+
+        <div class="col-xs-4">
+          <a href="#" class="col-xs-12 icon">
+            <span>
+              <i class="fa fa-twitter">
+              </i>
+            </span>
+          </a>
+        </div>
+
+        <div class="col-xs-4">
+          <a href="#" class="col-xs-12 icon">
+            <span>
+              <i class="fa fa-facebook">
+              </i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- FIN ICONS -->
+
+    </div> <!-- FIN 1st ROW -->
+
+    <!-- 2nd ROW -->
+    <div class="row">
+      <div class="col-sm-11 col-xs-12 text-right country">
+        <a href="#">
+          France
+          <span>
+            <img class="flag"src="img/fr.svg" alt="" />
+          </span>
+        </a>
+      </div>
+    </div>
+    <!-- FIN 2nd ROW -->
+
+    <!-- 3rd ROW -->
+    <div class="row last-row">
+      <div class="col-sm-6 col-md-offset-2 col-sm-offset-0 col-xs-8 col-xs-offset-0">
+        <ul class="col-sm-11 col-md-offset-1 col-sm-offset-0 col-xs-12 col-xs-offset-0 list-inline legal">
+          <li><a href="#">Légal</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#"><img src="img/icon1.png" class="adChoices"></img>AdChoices</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-offset-1 col-xs-4 col-xs-offset-0 text-right">
+        <p>
+          © 2016 Spotify AB
+        </p>
+      </div>
+    </div>
+    <!-- FIN 3rd ROW -->
+  </footer>
+  <!-- FIN FOOTER -->
 </body>
 
 </html>
